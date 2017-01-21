@@ -13,6 +13,8 @@
 		EC5D54BB1E336E9600802998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5D54B91E336E9600802998 /* Main.storyboard */; };
 		EC5D54BD1E336E9600802998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5D54BC1E336E9600802998 /* Assets.xcassets */; };
 		EC5D54C01E336E9600802998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5D54BE1E336E9600802998 /* LaunchScreen.storyboard */; };
+		EC5D54C91E336ECA00802998 /* Raketa.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D54C81E336ECA00802998 /* Raketa.m */; };
+		EC5D54CC1E33947F00802998 /* Eksplozija.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5D54CB1E33947F00802998 /* Eksplozija.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EC5D54BC1E336E9600802998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5D54BF1E336E9600802998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5D54C11E336E9600802998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5D54C71E336ECA00802998 /* Raketa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raketa.h; sourceTree = "<group>"; };
+		EC5D54C81E336ECA00802998 /* Raketa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raketa.m; sourceTree = "<group>"; };
+		EC5D54CA1E33947F00802998 /* Eksplozija.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eksplozija.h; sourceTree = "<group>"; };
+		EC5D54CB1E33947F00802998 /* Eksplozija.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eksplozija.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				EC5D54B31E336E9600802998 /* AppDelegate.h */,
 				EC5D54B41E336E9600802998 /* AppDelegate.m */,
+				EC5D54C71E336ECA00802998 /* Raketa.h */,
+				EC5D54C81E336ECA00802998 /* Raketa.m */,
+				EC5D54CA1E33947F00802998 /* Eksplozija.h */,
+				EC5D54CB1E33947F00802998 /* Eksplozija.m */,
 				EC5D54B61E336E9600802998 /* ViewController.h */,
 				EC5D54B71E336E9600802998 /* ViewController.m */,
 				EC5D54B91E336E9600802998 /* Main.storyboard */,
@@ -153,7 +163,9 @@
 			files = (
 				EC5D54B81E336E9600802998 /* ViewController.m in Sources */,
 				EC5D54B51E336E9600802998 /* AppDelegate.m in Sources */,
+				EC5D54CC1E33947F00802998 /* Eksplozija.m in Sources */,
 				EC5D54B21E336E9600802998 /* main.m in Sources */,
+				EC5D54C91E336ECA00802998 /* Raketa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
