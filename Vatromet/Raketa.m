@@ -25,13 +25,13 @@
         startPosition = position;
         const float velocity = 5.0;
         maxDistance = 150;
-        self.frame = CGRectMake(position.x, position.y, 10, 10);
+        self.frame = CGRectMake(position.x, position.y, 5, 5);
         self.backgroundColor = [UIColor redColor];
         self.layer.cornerRadius = 5;
         self.layer.masksToBounds = YES;
         d.x = cos(k) * velocity;
         d.y = sin(k) * velocity;
-        t = [NSTimer scheduledTimerWithTimeInterval:0.05
+        t = [NSTimer scheduledTimerWithTimeInterval:0.04
                                         target:self
                                         selector:@selector(moveRocket)
                                         userInfo:nil
